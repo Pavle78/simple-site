@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%
+	weight: 100%;
+}
+
+body{
+	align-items: center;
+	background-color: beige;
+	display: flex;
+	font-family: 'Slabo 27px', serif;
+	flex-direction: column;
+	justify-content: space-around;
+	overflow: hidden;
+
+
+}
+
+.kontejner{
+	align-items: center;
+	align-self: flex-end;
+	background: url('http://wallpaper-gallery.net/images/picture/picture-10.jpg');
+	border: 15px solid lightblue;
+	display: flex;
+	flex-direction: column;
+	min-height: 800px;
+	justify-content: center;
+	width: 800px;
+}
+
+h1{
+	color: white;
+	font-family: Georgia;
+	font-size: 3em;
+	font-style: oblique;
+	font-weight: 900;
+	line-height: 200%;
+	margin:0 0 50px 100px;
+	text-align: center;
+	text-shadow: 2px 4px 8px 0 blue;
+	width: 50%;
+}
+
+a.button {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+a.button:hover {
+	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
